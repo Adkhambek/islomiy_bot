@@ -22,9 +22,10 @@ bot.catch((err, ctx) => {
     return ctx.reply();
 });
 
-// bot.use((ctx) => {
-//     console.log(ctx.message);
-// });
+bot.use((ctx, next) => {
+    console.log(ctx.message);
+    next();
+});
 
 // Public
 bot.start((ctx) => {
@@ -48,6 +49,13 @@ bot.hears(match("keyboards.main_keyboard.ism"), async (ctx) => {
     });
     await ctx.replyWithPhoto(ctx.i18n.t("namesOfAllah.photoId"));
     await ctx.reply(ctx.i18n.t("namesOfAllah.names"));
+});
+
+bot.hears(match("keyboards.main_keyboard.farz"), async (ctx) => {
+    await ctx.reply(ctx.i18n.t("farz.text"), {
+        parse_mode: "HTML",
+    });
+    await ctx.replyWithPhoto(ctx.i18n.t("farz.photoId"));
 });
 
 // bot.hears(match("keyboards.main_keyboard.search"), (ctx) => {
