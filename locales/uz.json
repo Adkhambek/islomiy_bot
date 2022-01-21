@@ -1,7 +1,13 @@
 {
     "start": {
         "photoId": "AgACAgIAAxkBAAMaYeqPHwlEIPyCTT3QwL4jjjuLq9UAAuG1MRslglBLzqTKEH8-ZjoBAAMCAAN4AAMjBA",
-        "caption": "<b>Assalomu alekum, ${firstName}</b>\n\nSizni botimizda ko'rishdan hursandmiz 😊\n\nMarhamat kerakli  bo‘limni tanlang.\n\n<a href ='https://t.me/muzaffarovadham'>Adham Muzaffarov</a>"
+        "caption": "<b>Assalomu alekum, ${firstName}</b>\n\nSizni botimizda ko'rishdan hursandmiz 😊\n\nMarhamat kerakli  bo'limni tanlang.\n\n<a href ='https://t.me/muzaffarovadham'>Adham Muzaffarov</a>"
+    },
+    "namesOfAllah": {
+        "firstText": "A'rof surasining 180-oyatida: <b>«Allohning go'zal ismlari bor, ular bilan duo qilinglar»</b>, deyilgan",
+        "secondText": "Abu Hurayra roziyallohu anhudan rivoyat qilinadi:\n\nRasululloh sollallohu alayhi vasallam: <b>«Alloh taoloning to'qson to'qqizta - bir kam yuzta ismi bor. Kim ularni sanasa, jannatga kiradi. Alloh toqdir va toqni yaxshi ko'rur»</b>, dedilar.\n\nBu hadisni Imom Buxoriy va Imom Muslim rivoyat qilishgan. Imom Termiziy va boshqa muhaddislar hadisning davomida Alloh taoloning ismlarini keltirishgan:",
+        "names": "1) Alloh. 2) ar-Rahmon. 3) ar-Rahiym. 4) al-Malik. 5) al-Quddus. 6) as-Salom. 7) al-Mo'min. 8) al-Muhaymin. 9) al-Aziz. 10) al-Jabbor. 11) al-Mutakabbir. 12) al-Xoliq. 13) al-Bori'. 14) al-Musavvir. 15) al-G'affor. 16) al-Qahhor. 17) al-Vahhob. 18) ar-Razzoq. 19) al-Fattoh. 20) al-Aliym. 21) al-Qobiz. 22) al-Bosit. 23) al-Xofiz. 24) ar-Rofe'. 25) al-Mu'izz. 26) al-Muzill. 27) as-Samiy'. 28) al-Basiyr. 29) al-Hakam. 30) al-Adl. 31) al-Latiyf. 32) al-Xabiyr. 33) al-Haliym. 34) al-Aziym. 35) al-G'afur. 36) ash-Shakur. 37) al-Aliy. 38) al-Kabiyr. 39) al-Hafiyz. 40) al-Muqiyt. 41) al-Hasiyb. 42) al-Jaliyl. 43) al-Kariym. 44) ar-Raqiyb. 45) al-Mujiyb. 46) al-Vose'. 47) al-Hakiym. 48) al-Vadud. 49) al-Majiyd. 50) al-Bo'is. 51) ash-Shahiyd. 52) al-Haq. 53) al-Vakiyl. 54) al-Qaviy. 55) al-Matiyn. 56) al-Valiy. 57) al-Hamiyd. 58)al-Muhsiy. 59) al-Mubdi'. 60) al-Mu'iyd. 61) al-Muhyi. 62) al-Mumiyt. 63) al-Hayy. 64) al-Qayyum. 65) al-Vojid. 66) al-Mojid. 67) al-Vohid. 68) as-Somad. 69) al-Qodir. 70) al-Muqtadir. 71) al-Muqaddim. 72) al-Muaxxir. 73) al-Avval. 74) al-Oxir. 75) az-Zohir. 76) al-Botin. 77) al-Voliy. 78) al-Muta'oliy. 79) al-Barr. 80) at-Tavvob. 81) al-Muntaqim. 82) al-Afuvv. 83) ar-Ra`uf. 84) al-Molikul mulk. 85) Zul jaloli val ikrom. 86) al-Muqsit. 87) al-Jome'. 88) al-G'aniy. 89) al-Mug'niy. 90) al-Mone'. 91) az-Zorr. 92) an-Nofe'. 93) an-Nur. 94) al-Hodiy. 95) al-Badiy'. 96) al-Boqiy. 97) al-Voris. 98) ar-Rashiyd. 99) as-Sabur.",
+        "photoId": "AgACAgIAAxkBAAMkYeq8dZCSZoQJzPQC3zfNaOWJor8AAna2MRslglBLNSKSutA_phEBAAMCAAN5AAMjBA"
     },
     "keyboards": {
         "main_keyboard": {

@@ -39,6 +39,17 @@ bot.start((ctx) => {
     });
 });
 
+bot.hears(match("keyboards.main_keyboard.ism"), async (ctx) => {
+    await ctx.reply(ctx.i18n.t("namesOfAllah.firstText"), {
+        parse_mode: "HTML",
+    });
+    await ctx.reply(ctx.i18n.t("namesOfAllah.secondText"), {
+        parse_mode: "HTML",
+    });
+    await ctx.replyWithPhoto(ctx.i18n.t("namesOfAllah.photoId"));
+    await ctx.reply(ctx.i18n.t("namesOfAllah.names"));
+});
+
 // bot.hears(match("keyboards.main_keyboard.search"), (ctx) => {
 //     ctx.reply("good");
 // });
