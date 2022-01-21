@@ -1,0 +1,14 @@
+{
+    "start": "Assalomu alekum",
+    "keyboards": {
+        "main_keyboard": {
+            "search": "👀 Search",
+            "movies": "🎥 My collection",
+            "settings": "⚙️ Settings",
+            "about": "❓ About",
+            "support": "💰 Donation",
+            "contact": "✍️ Contact"
+        }
+    },
+    "help": "Help"
+}
