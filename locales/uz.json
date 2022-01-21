@@ -1,13 +1,17 @@
 {
-    "start": "Assalomu alekum",
+    "start": {
+        "photoId": "AgACAgIAAxkBAAMaYeqPHwlEIPyCTT3QwL4jjjuLq9UAAuG1MRslglBLzqTKEH8-ZjoBAAMCAAN4AAMjBA",
+        "caption": "<b>Assalomu alekum, ${firstName}</b>\n\nSizni botimizda ko'rishdan hursandmiz 😊\n\nMarhamat kerakli  bo‘limni tanlang.\n\n<a href ='https://t.me/muzaffarovadham'>Adham Muzaffarov</a>"
+    },
     "keyboards": {
         "main_keyboard": {
-            "search": "👀 Search",
-            "movies": "🎥 My collection",
-            "settings": "⚙️ Settings",
-            "about": "❓ About",
-            "support": "💰 Donation",
-            "contact": "✍️ Contact"
+            "namoz": "Namoz",
+            "quron": "Qur'oni karim",
+            "duo": "Duolar to'plami",
+            "farz": "Qirq farz",
+            "kalima": "Kalimalar",
+            "roza": "Ro'za",
+            "ism": "Allohning ism sifatlari"
         }
     },
     "help": "Help"
