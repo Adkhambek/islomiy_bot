@@ -58,8 +58,121 @@ bot.hears(match("keyboards.main_keyboard.farz"), async (ctx) => {
     await ctx.replyWithPhoto(ctx.i18n.t("farz.photoId"));
 });
 
-// bot.hears(match("keyboards.main_keyboard.search"), (ctx) => {
-//     ctx.reply("good");
-// });
+bot.hears(match("keyboards.main_keyboard.kalima"), async (ctx) => {
+    await ctx.reply(ctx.i18n.t("kalima.text"), keyboard.getKalimaKeyboard(ctx));
+});
+
+bot.hears(match("keyboards.back.backwards"), (ctx) => {
+    ctx.reply("🔝 Bosh Menyu", keyboard.getMainKeyboard(ctx));
+});
+
+bot.hears(match("keyboards.kalima.all"), async (ctx) => {
+    await ctx.replyWithPhoto(ctx.i18n.t("kalima.toyyiba.photoId"));
+    await ctx.reply(ctx.i18n.t("kalima.toyyiba.text"), {
+        parse_mode: "HTML",
+    });
+    await ctx.replyWithPhoto(ctx.i18n.t("kalima.shahodat.photoId"));
+    await ctx.reply(ctx.i18n.t("kalima.shahodat.text"), {
+        parse_mode: "HTML",
+    });
+    await ctx.replyWithPhoto(ctx.i18n.t("kalima.tavhid.photoId"));
+    await ctx.reply(ctx.i18n.t("kalima.tavhid.text"), {
+        parse_mode: "HTML",
+    });
+    await ctx.replyWithPhoto(ctx.i18n.t("kalima.raddi_kufr.photoId"));
+    await ctx.reply(ctx.i18n.t("kalima.raddi_kufr.text"), {
+        parse_mode: "HTML",
+    });
+    await ctx.replyWithPhoto(ctx.i18n.t("kalima.istigfor.photoId"));
+    await ctx.reply(ctx.i18n.t("kalima.istigfor.text"), {
+        parse_mode: "HTML",
+    });
+    await ctx.replyWithPhoto(ctx.i18n.t("kalima.tamjid.photoId"));
+    await ctx.reply(ctx.i18n.t("kalima.tamjid.text"), {
+        parse_mode: "HTML",
+    });
+    await ctx.replyWithPhoto(ctx.i18n.t("kalima.mujmal.photoId"));
+    await ctx.reply(ctx.i18n.t("kalima.mujmal.text"), {
+        parse_mode: "HTML",
+    });
+    await ctx.replyWithPhoto(ctx.i18n.t("kalima.mufassal.photoId"));
+    await ctx.reply(ctx.i18n.t("kalima.mufassal.text"), {
+        parse_mode: "HTML",
+    });
+});
+
+bot.hears(match("keyboards.kalima.toyyiba"), async (ctx) => {
+    await ctx.replyWithPhoto(ctx.i18n.t("kalima.toyyiba.photoId"));
+    await ctx.reply(ctx.i18n.t("kalima.toyyiba.text"), {
+        parse_mode: "HTML",
+    });
+});
+bot.hears(match("keyboards.kalima.shahodat"), async (ctx) => {
+    await ctx.replyWithPhoto(ctx.i18n.t("kalima.shahodat.photoId"));
+    await ctx.reply(ctx.i18n.t("kalima.shahodat.text"), {
+        parse_mode: "HTML",
+    });
+});
+bot.hears(match("keyboards.kalima.tavhid"), async (ctx) => {
+    await ctx.replyWithPhoto(ctx.i18n.t("kalima.tavhid.photoId"));
+    await ctx.reply(ctx.i18n.t("kalima.tavhid.text"), {
+        parse_mode: "HTML",
+    });
+});
+bot.hears(match("keyboards.kalima.raddi_kufr"), async (ctx) => {
+    await ctx.replyWithPhoto(ctx.i18n.t("kalima.raddi_kufr.photoId"));
+    await ctx.reply(ctx.i18n.t("kalima.raddi_kufr.text"), {
+        parse_mode: "HTML",
+    });
+});
+bot.hears(match("keyboards.kalima.istigfor"), async (ctx) => {
+    console.log("OK");
+    await ctx.replyWithPhoto(ctx.i18n.t("kalima.istigfor.photoId"));
+    await ctx.reply(ctx.i18n.t("kalima.istigfor.text"), {
+        parse_mode: "HTML",
+    });
+});
+bot.hears(match("keyboards.kalima.tamjid"), async (ctx) => {
+    await ctx.replyWithPhoto(ctx.i18n.t("kalima.tamjid.photoId"));
+    await ctx.reply(ctx.i18n.t("kalima.tamjid.text"), {
+        parse_mode: "HTML",
+    });
+});
+bot.hears(match("keyboards.kalima.mujmal"), async (ctx) => {
+    await ctx.replyWithPhoto(ctx.i18n.t("kalima.mujmal.photoId"));
+    await ctx.reply(ctx.i18n.t("kalima.mujmal.text"), {
+        parse_mode: "HTML",
+    });
+});
+bot.hears(match("keyboards.kalima.mufassal"), async (ctx) => {
+    await ctx.replyWithPhoto(ctx.i18n.t("kalima.mufassal.photoId"));
+    await ctx.reply(ctx.i18n.t("kalima.mufassal.text"), {
+        parse_mode: "HTML",
+    });
+});
+
+bot.hears(match("keyboards.main_keyboard.duo"), async (ctx) => {
+    await ctx.replyWithPhoto(ctx.i18n.t("duo.photoId"));
+    await ctx.reply(ctx.i18n.t("duo.text"), {
+        parse_mode: "HTML",
+        ...keyboard.getDuoKeyboard(ctx),
+    });
+});
+
+bot.hears(match("keyboards.duo.daily"), async (ctx) => {
+    await ctx.replyWithPhoto(ctx.i18n.t("duo.daily.photoId"));
+});
+
+bot.hears(match("keyboards.duo.quran"), async (ctx) => {
+    await ctx.replyWithDocument(ctx.i18n.t("duo.quran.photoId"));
+});
+
+bot.hears(match("keyboards.duo.azon"), async (ctx) => {
+    await ctx.replyWithPhoto(ctx.i18n.t("duo.azon.photoId"));
+});
+
+bot.hears(match("keyboards.duo.sleep"), async (ctx) => {
+    await ctx.replyWithPhoto(ctx.i18n.t("duo.sleep.photoId"));
+});
 
 module.exports = bot;
